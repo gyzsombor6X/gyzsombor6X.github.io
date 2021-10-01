@@ -1,0 +1,17 @@
+h1
+{
+    color: blue;
+}
+
+li
+{
+    color: red;
+}
+
+#zold
+{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
