@@ -1,0 +1,69 @@
+body
+{
+	background-color: rgb(230, 230, 250);
+}
+
+#sematikus
+{
+	width: 1000px;
+}
+
+#arial
+{
+	font-family: arial;
+	font-size: 18pt;
+	width: 450px;
+	position: absolute;
+	top: 25%;
+	left: 55%;
+	transform: rotate(8deg);
+}
+
+header
+{
+	margin: auto;
+	width: 1000px;
+	background-image: url('hatter.jpg');
+}
+
+#zaszlok
+{
+	width: 100px;
+}
+
+div
+{
+	margin: auto;
+	width: 1000px;
+}
+
+#sor
+{
+	margin: auto;
+}
+
+table
+{
+	text-align: left;
+	*margin: auto;
+}
+
+*table tr > th:nth-child(1)
+{
+	*background-color: rgb(250, 200, 180);
+}
+
+*table tr > th:nth-child(2)
+{
+	*background-color: white;
+}
+
+#paros
+{
+	background-color: white;
+}
+
+#paratlan
+{
+	background-color: rgb(250, 200, 180);
+}

@@ -1,0 +1,68 @@
+<!<>
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="utf-8" />
+		<title>3D nyomtatás</title>
+		<link rel="stylesheet" type="text/css" href="3D.css" />
+	</head>
+	<body>
+		<header>
+			<table>
+				<tr>
+					<th>
+						<p><a href="3Dprinting.html"><img src="en.png" id="zaszlok" alt="English version of 3D Printing" title="English version of 3D Printing" /></a></p>
+					</th>
+					<th>
+						<p><a href="3Dnyomtatas.html"><img src="hu.png" id="zaszlok" alt="A 3D nyomtatás magyar verziója" title="A 3D nyomtatás magyar verziója" /></a></p>
+					</th>
+				</tr>
+			</table>
+		</header>
+		<div>
+			<img src="3d_nyomtato.bmp" alt="3D nyomtató" title="3D nyomtató" />
+			
+			<div id="arial">
+				Tudjon meg mindent, amit tudni kell a 3D nyomtatásról 30 perc alatt. 
+				Akár csak kezdő, akár tapasztalt mérnök vagy, ez az útmutató hasznos tippet és információz tartalmaz -  frissítve 2020-ra.
+			</div>
+			
+			<h1>3D nyomtatás</h1>
+			
+			<p>Minden 3D nyomtató ugyanazon fő elv alapján épít alkatrészeket: 
+			a digitális modell fizikai háromdimenziós objektummá alakul, az anyag egy réteg hozzáadásával. 
+			Innen származik az Adalékanyag-gyártás alternatív kifejezés. 
+			A 3D nyomtatás alapvetően eltérő módon történik az alkatrészek előállítása, összehasonlítva a hagyományos kivonási vagy formázási technológiákkal. 
+			A 3D-s nyomtatáshoz nincs szükség speciális szerszámokra. 
+			Ehelyett az alkatrészt rétegenként közvetlenül a beépített platformon gyártják, ami egyedülálló előnyökhöz és korlátozásokhoz vezet.</p>
+			
+			<p>A folyamat mindig egy digitális 3D-s modellel kezdődik - a fizikai objektum tervétől. 
+			A nyomtató szoftvere ezt a modellt vékony, kétdimenziós rétegekké szeleti, majd a gépi nyelvű utasítások sorozatává alakítja (G-kód) a nyomtató számára.</p>
+			
+			<img src="sematikus.bmp" id="sematikus" alt="Sematikus ábra" title="Sematikus ábra" />
+			
+			<p>Innentől kezdve a 3D nyomtató működési módja függ például az asztali FDM nyomtatók megolvasztják a műanyag szálakat, és egy fúvókán keresztül lerakják a nyomtatási platformra. 
+			A nagy ipari SLS gépek lézert használnak vékony fém- vagy műanyag porrétegek megolvasztására (vagy szinterezésére).</p>
+				
+			<p>A rendelkezésre álló anyagok folyamatonként is változnak. 
+			A műanyagok messze a legelterjedtebbek, de a fémek 3D nyomtatással is nyomtathatók. 
+			A gyártott alkatrészeknek széles spektrumú fizikai tulajdonságai is lehetnek, az optikailag tisztaktól a gumiszerű tárgyakig terjedve.</p>
+			
+			<p>Az alkatrész méretétől és a nyomtató típusától függően a nyomtatás általában körülbelül 4-18 órát vesz igénybe. 
+			A 3D-s nyomtatott alkatrészek azonban ritkán használhatók használatra készen a készülékből. 
+			Gyakran utófeldolgozásra van szükség a kívánt felületi szín eléréséhez. 
+			Ezek a lépések további időt és (általában kézi) erőfeszítést igényelnek.</p>
+			
+			Az ISO / ASTM 52900 szabvány a 3D nyomtatás különféle típusait 7 csoportba lehet sorolni
+			<table id="sor">
+				<tr><th id="paratlan">1.</th><th id="paratlan">Anyag extrudálás (FDM)</th><th id="paratlan">Az anyagot szelektíven adagolják egy fúvókán vagy nyíláson keresztül</th></tr>
+				<tr><th id="paros">2.</th><th id="paros">Tartály polimerizáció (SLA és DLP)</th><th id="paros">A tartályban lévő folyékony fotopolimer szelektív módon kikeményedik ultraibolya fény segítségével</th></tr>
+				<tr><th id="paratlan">3.</th><th id="paratlan">Poros ágyazás (SLS, DMLS és SLM)</th><th id="paratlan">Nagy energiaforrás szelektíven megolvasztja a porrészecskéket</th></tr>
+				<tr><th id="paros">4.</th><th id="paros">Anyagsugaras (MJ)</th><th id="paros">Az anyagcseppek szelektíven helyezkednek el és kikeményednek</th></tr>
+				<tr><th id="paratlan">5.</th><th id="paratlan">Binder Jetting (BJ)</th><th id="paratlan">A folyékony kötőanyag szelektíven megköti a porréteg régióit</th></tr>
+				<tr><th id="paros">6.</th><th id="paros">Közvetlen energia lerakódás (LENS, LBMD)</th><th id="paros">Egy nagy energiaforrású anyag megolvasztja az anyagot, amikor lerakódik</th></tr>
+				<tr><th id="paratlan">7.</th><th id="paratlan">Lemez laminálás (LOM, UAM)</th><th id="paratlan">Az anyaglapokat ragasztják és rétegenként képezik</th></tr>
+			</table>
+		</div>
+	</body>
+</html>

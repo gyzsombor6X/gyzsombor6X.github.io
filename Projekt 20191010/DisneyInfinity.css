@@ -1,0 +1,23 @@
+body
+{
+	color:white;
+	background-color:black;
+}
+
+p
+{
+	text-align: justify;
+	font-family: segoe-ui;
+}
+
+h1, h2
+{
+	color: red;
+	font-size: 16pt;
+	font-family: segoe-ui;
+}
+
+li
+{
+	color: red;
+}

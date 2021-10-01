@@ -1,0 +1,128 @@
+body 
+{
+    font-family: 'Times New Roman', Times, serif;
+	background-color: rgb(213, 227, 246);
+	color: rgb(0, 0, 139);
+	
+}
+
+p
+{
+	text-align: justify;
+}
+
+.tartalom 
+{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+h1 
+{
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+#latnivalok 
+{
+    background-image: url('diadaliv.jpg');
+    min-height: 500px;
+    text-align: justify;
+    padding: 5px;
+    font-size: 12pt;
+}
+
+#lablec 
+{
+    padding: 10px;
+    text-align: right;
+}
+#kepeiffel
+{    
+    margin: 0 10px;
+	float: right;
+}
+
+#keplouvre 
+{    
+    margin: 0 10px;
+    width: 980px;
+}
+
+#kepnotredame 
+{
+    float:left;
+    width:300px;
+    margin: 0 10px;
+}
+
+table 
+{
+    margin-left: 20px;
+}
+
+table, table th, table td
+{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+#cim_th
+{
+	text-align: center;
+}
+
+#latnivalok table tr > td:nth-child(1) 
+{
+  width: 210px;
+}
+
+#latnivalok table tr > td:nth-child(2) 
+{
+  width: 120px;
+  text-align: center;
+}
+
+#latnivalok table tr > td:nth-child(3) 
+{
+  width: 120px;
+  text-align: center;
+}
+
+#latnivalok table tr > td:nth-child(4) 
+{
+  width: 120px;
+  text-align: center;
+}
+
+#fejlec
+{
+	background-image: url('notredame.jpg');
+	height: 200px;
+}
+
+h1
+{
+	font-size: 48pt;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 18pt;
+}
+
+#h2_a
+{
+	color: rgb(0, 0, 139);
+}
+
+h3
+{
+	font-size: 14pt;
+	font-style: italic;
+}
