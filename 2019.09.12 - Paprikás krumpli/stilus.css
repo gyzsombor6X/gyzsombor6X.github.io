@@ -1,0 +1,22 @@
+body
+{
+	color:blue;
+	background-color:yellow;
+}
+
+p
+{
+	text-align: justify;
+	font-family: arial;
+}
+
+h1, h2
+{
+	color: red;
+	font-size: 16pt;
+}
+
+li
+{
+	color: red;
+}
