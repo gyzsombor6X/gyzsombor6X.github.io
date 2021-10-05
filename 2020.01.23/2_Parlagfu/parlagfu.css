@@ -1,0 +1,54 @@
+body
+{
+	background-color: rgb(156, 238, 89);
+	color: black;
+}
+
+a
+{
+	color: rgb(153, 153, 153);
+}
+
+#irtas_vastag
+{
+	font-weight: bold;
+}
+
+table.zold
+{
+	width: 980px;
+	margin: auto;
+	background-color: rgb(80, 144, 80);
+	padding: 0px;
+	border-spacing: 0px;
+	text-align: left;
+}
+
+table.fekete
+{
+	width: 980px;
+	margin: auto;
+	background-color: white;
+	padding: 0px;
+	border-spacing: 1px;
+}
+
+th.f
+{
+	background-color: black;
+	text-align: center;
+	color: white;
+	margin: auto;
+	height: 40px;
+}
+
+div
+{
+	padding: 5px;
+	float: right;
+}
+
+img
+{
+	border: 1px solid black;
+}
