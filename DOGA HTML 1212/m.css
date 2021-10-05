@@ -1,0 +1,79 @@
+body
+{
+	background-color: rgb(190,200,235);
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+}
+
+header
+{
+	background-image: url(hatter.jpg);
+	border-top: 5px solid rgb(30,45,100);
+	border-bottom: 2px solid rgb(30,45,100);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+div.kep
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	transform: rotate(8deg);
+	width: 600px;
+}
+
+div.kicsi
+{
+	width: 600px;
+	border-left: 2px solid rgb(30,45,100);
+	border-right: 2px solid rgb(30,45,100);
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+table
+{
+	width: 600px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer
+{
+	background-color: rgb(30,45,100);
+	color: white;
+	text-align: left;
+}
+
+#dolt
+{
+	font-style: italic;
+}
+
+#vastag
+{
+	font-weight: bold;
+}
+
+#kozep
+{
+	text-align: center;
+}
