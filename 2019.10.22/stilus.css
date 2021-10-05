@@ -1,0 +1,26 @@
+body
+{
+	background-color: #E0E0E0;
+	color: #660000;
+	font-family: Arial;
+}
+
+table, td
+{
+	border: 1px solid white
+}
+
+img
+{
+	width: 150px;
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+}
