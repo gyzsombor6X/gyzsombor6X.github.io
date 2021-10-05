@@ -1,0 +1,34 @@
+body
+{
+	color: white;
+}
+
+a
+{
+	color: #C0C0C0;
+}
+
+table.nagy
+{
+	width: 1000px;
+	margin: auto;
+	padding: 0px;
+	border-spacing: 0px;
+	background-image: url(hatter.png);
+}
+
+td.ures_oszlop
+{
+	width: 120px;
+	margin: auto;
+}
+
+#jobbra
+{
+	text-align: right;
+}
+
+#vastag_random
+{
+	font-weight: bold;
+}
