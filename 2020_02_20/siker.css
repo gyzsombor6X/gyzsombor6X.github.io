@@ -1,0 +1,89 @@
+table
+{
+	margin: auto;
+}
+
+img
+{
+	width: 150px;
+}
+
+#blokk_fail
+{
+	padding: 25px;
+	*background-color: rgb(255, 137, 137);
+	background-color: rgb(255, 238, 238);
+	width: 350px;
+	z-index: -1;
+}
+
+#cim_fail
+{
+	color: red;
+}
+
+#lista_fail
+{
+	list-style-image: url('icon_bad.png');
+	color: red;
+}
+
+#blokk_siker
+{
+	padding: 25px;
+	*background-color: rgb(71, 255, 106);
+	background-color: rgb(238, 255, 238);
+	width: 350px;
+	z-index: -1;
+}
+
+#cim_siker
+{
+	color: green;
+}
+
+#lista_siker
+{
+	list-style-image: url('icon_good.png');
+	color: green;
+}
+
+#nyilak
+{
+	width: 300px;
+	text-align: center;
+}
+
+#keret_div
+{
+	margin: auto;
+	text-align: center;
+}
+
+#keret
+{
+	margin: auto;
+	text-align: center;
+}
+
+#keret2
+{
+	margin: auto;
+	text-align: center;
+}
+
+#keret3
+{
+	margin: auto;
+	text-align: left;
+	padding: 5px;
+	border: 5px double yellow;
+	background-color: rgb(0, 0, 68);
+	color: yellow;
+	font-weight: bold;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 13%;
+	transform: rotate(8deg);
+}
