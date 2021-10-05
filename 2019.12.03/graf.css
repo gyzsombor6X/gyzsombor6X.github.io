@@ -1,0 +1,68 @@
+body
+{
+	background-color: rgb(200,200,200);
+	color: rgb(100,5,5);
+	margin: 100px;
+	text-align: justify;
+}
+
+header
+{
+	background-image: url('hatter.jpg');
+	font-weight: bold;
+}
+
+h1{
+	color: white;
+	text-align: center;
+  }
+
+footer
+{
+	background-image: url('lab.jpg');
+	border: solid white 5px;
+	border-radius: 15px;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+div
+{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
+}
+div.kicsi
+{
+	border: 2px solid white;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 10px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	transform: rotate(-8deg);
+}
+
+#dolt
+{
+	font-style: italic;
+}
+
+#nev
+{
+	color: red;
+}
+
+
+p#alcim
+{
+	text-align: center;
+	font-size: 24pt;
+}
+
+p.jobb
+{text-align: right;}
