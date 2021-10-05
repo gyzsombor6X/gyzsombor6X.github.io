@@ -1,0 +1,66 @@
+body
+{
+  background-repeat: no-repeat; 
+  background-image: url('big-graph.png');
+  background-position: center top;
+  background-attachment: fixed;
+  padding: 10px;
+  margin: 0px;
+  text-align: justify;
+}
+
+p:first-letter 
+{
+  margin-left:15px;
+}
+
+h1
+{
+  text-align: center;
+}
+
+h2, h3
+{
+  font-style: italic;
+}
+
+
+#jobbra
+{
+  float: right;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 0.7em;
+  color: #FF0000;
+  background-color: #FFFFFF;
+}
+
+#divkep
+{
+	width: 400px;
+	border: 1px solid red;
+}
+
+#keplet_dolt
+{
+	font-style: italic;
+}
+
+#link_kep
+{
+	font-weight: bold;
+}
+
+.kerdeskep
+{
+  float: left;
+  margin-right: 20px;
+  width: 222px;
+}
+
+a
+{
+  color:red;
+}
