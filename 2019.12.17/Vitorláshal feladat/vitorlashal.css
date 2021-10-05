@@ -1,0 +1,54 @@
+body
+{
+	background-color: #000033;
+	color: white;
+}
+
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#kek
+{
+	background-color: blue;
+}
+
+#rendszertan
+{
+	width: 300px;
+	text-align: left;
+}
+
+#sor_narancs
+{
+	background-color: orange;
+}
+
+#sor_feher
+{
+	background-color: white;
+	color: black;
+}
+
+#table_narancs
+{
+	background-color: orange;
+}
+
+h1
+{
+	color: orange;
+}
+
+p
+{
+	text-align: left;
+}
+
+a
+{
+	color: orange;
+}

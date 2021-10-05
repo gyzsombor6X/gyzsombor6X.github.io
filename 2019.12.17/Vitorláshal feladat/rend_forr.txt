@@ -1,0 +1,10 @@
+Rendszertani besorolás	
+Ország:	Állatok
+Törzs:	Gerinchúrosok
+Altörzs:	Gerincesek
+Osztály:	Sugarasúszójúak
+Alosztály:	Csontos halak
+Rend:	Sügéralakúak
+Család:	Cichlidae
+Nem:	Pterophyllum
+Faj:	Pterophyllum scalare

@@ -1,0 +1,12 @@
+<map name="terkep">
+  <area shape="poly" title=" hátúszó "coords="118,38,246,3,151,95"  alt="hátúszó">
+  <area shape="poly" title=" farok alatti úszó "coords="148,135,131,281,80,180"  alt="farok alatti úszó">
+  <area shape="poly" title=" hasúszó "coords="38,157,42,195,57,229,71,255,83,268,109,295,128,308,137,314,142,307,101,273,72,242,53,211,44,180,46,168,46,161,38,155" href="#3" alt="hasúszó">
+  <area shape="poly" title=" kopoltyú "coords="19,122,30,122,43,116,51,108,55,94,52,87,46,83,42,85,43,94,40,102,33,114,29,118,18,120,30,120" alt="kopoltyú">
+  <area shape="circle" title=" szem "coords="29,92,8" alt="szem">
+  <area shape="poly" title=" farokúszó "coords="229,190,161,145,173,99,193,90,207,85,219,83,239,81,226,92,220,100,216,120,216,145,215,161" alt="farokúszó">
+  <area shape="poly" title=" száj "coords="11,80,4,87,8,97,12,99,13,91,14,83,10,79" alt="száj">
+  <area shape="poly" title=" hát "coords="27,66,40,64,67,56,91,48,113,42,106,36,84,39,70,46,50,54,37,60,28,66"  alt="hát">
+  <area shape="poly" title=" csík "coords="68,168,72,170,76,161,76,150,77,141,81,129,85,120,85,102,87,81,89,66,94,56,95,45,86,50,84,54,68,160"  alt="csík">
+   <area shape="poly" title=" csík "coords="127,64,126,84,120,112,112,156,123,151,128,125,134,99,136,79,137,67,133,52,126,51,125,61"  alt="csík">
+</map>
