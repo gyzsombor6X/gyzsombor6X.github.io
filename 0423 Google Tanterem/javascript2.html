@@ -1,0 +1,35 @@
+<!<>
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="utf-8" />
+		<title>JavaScript 1 - 2020.04.23.</title>
+		<link rel="stylesheet" type="text/css" href="gyzsombor6X - negyzet.css" />
+	</head>
+	<body>
+		<div>
+			<img src="negyzet.jpg" alt="Négyzet" title="Négyzet"/>
+			<h1>NÉGYZET</h1>
+			<form name="sikidom">
+				<h2>Kiindulási adatok:</h2>
+				<p>'a' oldal hossza: <input name="a" size="5"> cm </p>
+				<input type="button" id="gomb" value="Számol" onClick="szamol();"><br/>
+				<hr>
+				<h2>Eredmények:</h2>
+				<p>Kerület: <input name="K" size="10" readonly> cm </p>
+				<p>Terület: <input name="T" size="10" readonly> cm<sup>2</sup>
+			</form>
+		</div>
+		
+		<script>
+			function szamol()
+			{
+				a = parseFloat (document.sikidom.a.value)
+				K = 4*a
+				T = a*a
+				document.sikidom.K.value = K
+				document.sikidom.T.value = T
+			}
+		</script>
+	</body>
+</html>

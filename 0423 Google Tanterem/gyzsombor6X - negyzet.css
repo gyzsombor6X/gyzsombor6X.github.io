@@ -1,0 +1,25 @@
+body
+{
+	background-color: black;
+}
+
+div
+{
+	background-color: rgb(210,220,230);
+	color: rgb(10,30,100);
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+#gomb
+{
+	border-radius: 5px;
+}
+
+img
+{
+	float: right;
+	width: 180px;
+}
