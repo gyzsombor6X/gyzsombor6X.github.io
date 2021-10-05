@@ -1,0 +1,42 @@
+Informatikai rendszerüzemeltetõ (OKJ 54 481 06)
+képzés bemutatása
+
+Szakleírás
+Az Informatikai rendszerüzemeltetõ a kis- és közepes vállalat, intézmény, szervezet informatikáért felelõs vezetõjének közvetlen munkatársa, vagy kihelyezett informatikai szolgáltatásokat végzõ cégben elsõ szintû támogatói feladatokat lát el. Megfelelõ mélységû (elméleti és gyakorlati) informatikai, hálózati ismeretei birtokában részt vesz a munkahely infokommunikációs hálózatának kialakításában és mûködtetésében. Koncepcionális kérdésekben feladata elsõsorban a döntések elõkészítése, míg megvalósításban a koordináló feladatok ellátása. Együttmûködik a rendszerszervezõkkel, szoftverfejlesztõkkel. Felelõsségi körébe tartozik a vállalatnál mûködõ, illetve felhõszolgáltatásként igénybe vett informatikai hálózati eszközök, szerverek és munkaállomások, alkalmazások összehangolt mûködésének és folyamatos frissítésének biztosítása, a felhõszolgáltatásokhoz kapcsolódás biztosítása, melynek révén hozzájárul a szervezet teljesítményének folyamatos növeléséhez, a szervezet céljainak eléréséhez.
+
+Képzés adatai
+
+A szakképesítés azonosító száma: 54 481 06
+Szakképesítés megnevezése: Informatikai rendszerüzemeltetõ
+A szakmacsoport száma és megnevezése: 7. Informatika
+Ágazati besorolás száma és megnevezése: XIII. Informatika
+Iskolai rendszerû szakképzésben a szakképzési évfolyamok száma: 2 év
+Elméleti képzési idõ aránya: 40%
+Gyakorlati képzési idõ aránya: 60%
+Összefüggõ szakmai gyakorlat: nincs
+
+
+évfolyam	heti óraszám 	éves óraszám 
+1/13. évfolyam	31 óra/hét	1116 óra/év
+Ögy.		0 óra
+2/14. évfolyam	31 óra/hét	961 óra/év
+Összesen:	2077 óra
+
+Tanult tantárgyak
+Foglalkoztatás I.
+Foglalkoztatás II.
+IT alapok
+IT alapok gyakorlat
+Hálózatok I.
+Hálózatok I. gyakorlat
+Programozás
+Programozás gyakorlat
+IT szakmai angol nyelv
+Hálózatok II.
+Hálózatok II. gyakorlat
+IT hálózatbiztonság
+IT hálózatbiztonság gyakorlat
+Szerverek és felhõszolgáltatások
+Szerverek és felhõszolgáltatások gyakorlat
+
+A képzésrõl a www.nive.hu weboldalon olvashat többet! (https://www.nive.hu//index.php?option=com_content&view=article&id=933)

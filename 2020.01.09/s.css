@@ -1,0 +1,33 @@
+header, footer
+{
+	background-color: rgb(127,127,127);
+	color: white;
+	text-align: center;
+}
+
+div
+{
+	background-color: rgb(217,217,217);
+}
+
+table.harmadik
+{
+	margin: auto;
+	width: 500px;
+	border: 1px solid black;
+}
+
+table.harmadik tr:nth-child(3n+1)
+{
+	background-color: white;
+}
+
+table.harmadik tr:nth-child(3n+2)
+{
+	background-color: rgb(220,230,242);
+}
+
+table.harmadik tr:nth-child(3n)
+{
+	background-color: rgb(149,179,215);
+}
