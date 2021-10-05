@@ -1,0 +1,38 @@
+#keret
+{
+    margin:auto;
+    border-style: none solid;
+	border-color:gray;
+    border-width: 20px;
+	width: 70%;
+}
+.ritka
+{
+    
+}
+
+#kep
+{
+    width: 40%;
+    box-shadow: 8px 8px 5px gray;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+    border-radius: 10px;
+    border-style: solid;
+	float: right;
+}
+input
+{
+    font-family:cursive; 
+    font-weight: bold;
+    border-radius: 5px;   
+}
+body
+{
+    font-family: cursive;
+	background-image: url('hatter.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}

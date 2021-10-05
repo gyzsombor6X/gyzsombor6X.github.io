@@ -1,0 +1,79 @@
+<!<>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>JavaScript 4 - Sárgatúró - 2020.05.13.</title>
+		<link rel="stylesheet" type="text/css" href="turo.css" />
+	</head>
+	<body>
+		<div id="keret">
+			
+			<h1 class="ritka">Sárgatúró</h1>
+			
+			<a href="https://www.tudasfaja.com/osi-magyar-finomsag-a-sarga-turo-amit-mar-sokan-nem-is-ismernek-ime-az-eredeti-recept/">
+			<img src="edes-sargaturo.jpg" id="kep" alt="Sárgatúró húvéti díszítéssel" title="Sárgatúró húvéti díszítéssel"/></a>
+			
+			<p>A sárgatúró egy erősen valláshoz kapcsolódó, húsvéti étel. 
+			Főként a görög katolikus vidékeken ismert, többek között a Hajdúságban és Szabolcs-Szatmár-Bereg megyében. 
+			Ezeken a vidékeken annyira elterjedt, hogy akár a római katolikus vallásúak is elkészítették (és készítik a mai napig), 
+			a húsvéti vallási szokások jegyében. 
+			Több néven ismert: sárga- vagy édestúró, túrócska, illetve szláv eredetű szóval szirikk vagy szirka.</p>
+			
+			
+			
+			<h2 class="ritka">Eredete</h2>
+			<p>A húsvétot megelőző nagyböjt 40 napos böjtölést lezárandó a vasárnapi asztalra már bőségesen kerülhetett étel. 
+			Ezeket az ételeket mind a római katolikusok, mind a görög katolikusok vasárnap délelőtt a templomba vitték, hogy 
+			felszenteljék. Régebben hatalmas batyukba tették az ételt és mindent elvittek a templomba, hogy megszentelhessék, 
+			majd csak egy-egy darabot vágtak a kenyérből vagy kalácsból, a sonkából és a sárgatúróból is. 
+			A jellegzetes húsvéti kalácsot pászkának is hívták, innen a 'pászkaszentelés' összefoglaló név, amely később 
+			minden húsvéti étel szentelésére vonatkozott. A sárgatúró eredetileg a görög katolikusok étke, de azokon a vidékeken 
+			a római katolikusok is ismerik, és szívesen készítik, de csak húsvétkor. Ez adja az étel ünnepélyes jellegét.</p>
+			
+			<h2 class="ritka">A sárgatúró receptje <input type="number" onChange="adag();" value="1" min="1" id="fo"> főre:</h2>
+			
+			<h3 class="ritka">Hozzávalók:</h3>
+			
+			<ul>
+				<li><span id="tej">0.2</span> l tej</li>
+				<li><span id="tojas">2</span> db tojás</li>
+				<li><span id="cukor">1</span> ek kristálycukor</li>
+			</ul>
+			
+			<h3 class="ritka">Elkészítés:</h3>
+			
+			<ol>
+				<li>Kiöblítünk egy nagyobb, vastagabb aljú lábast hideg vízzel és így öntjük bele a tejet, hogy ne égjen 
+				le a forralás során.</li>
+				<li>Felforraljuk és beletesszük a cukrot és a sót.</li>
+				<li>A tojásokat beleütjük egy tálba, és villával összekavarjuk.</li>
+				<li>Hozzáadjuk a felforrt tejhez, és takarék lángon főzzük addig, amíg a tej vízszerűvé változik és a 
+				tojások túrószerűvé állnak össze. Érdemes egy egyenes szélű, fémlapáttal vagy spatulával kevergetni fakanál helyett, így nem fog leégni.</li>
+				<li>Vászonruhába, vagy függönyanyagba rakjuk, gömbalakot formálunk belőle. 
+				Az anyagot összekötjük, és így szűrjük le a levét, fellógatjuk és hagyjuk kicsepegni a maradékot is.</li>
+				<li>Tálalásig hűtőben tároljuk.</li>
+			</ol>
+			
+		</div>
+		<script>
+			function adag()
+			{
+				db = document.getElementById("fo").value;
+				if(db<1)
+				{
+					document.getElementById("tej").innerHTML = "ERROR!";
+					document.getElementById("tojas").innerHTML = "ERROR!";
+					document.getElementById("cukor").innerHTML = "ERROR!";
+				}
+				else
+				{
+					document.getElementById("tej").innerHTML = db*0.2;
+					document.getElementById("tojas").innerHTML = db*2;
+					document.getElementById("cukor").innerHTML = db*1;
+				}
+				
+			}
+		</script>
+	</body>
+</html>
