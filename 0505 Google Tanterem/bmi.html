@@ -1,0 +1,47 @@
+<!<>
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="utf-8" />
+		<title>JavaScript 3 - BMI - 2020.04.30.</title>
+		<link rel="stylesheet" type="text/css" href="tgrafok.css" />
+	</head>
+	<body>
+		<div>
+			<img src="shutterstock_332045687_1475424858.jpg" alt="shutterstock_332045687_1475424858.jpg" title="shutterstock_332045687_1475424858.jpg">
+			<h1>Testtömegindex (BMI - Body Mass Index)</h1>
+			<form name="meres">
+				<h2>Kiindulási adatok:</h2>
+				<p>Testmagasság (cm): <input name="magassag" size="5"> cm</p>
+				<p>Tömeg (kg): <input name="tomeg" size="5"> kg</p>
+				<input type="button" id="gomb" value="Számol!" onClick="szamol();"/><br/>
+				<hr/>
+				<h2>Eredmény:</h2> 
+				<p>BMI: <input name="bmi" size="5" readonly> kg/m<sup>2</sup></p>
+				<br/>
+				<span id="valasz"></span>
+			</form>
+		</div>
+		<script>
+			function szamol()
+			{
+				m = parseFloat(document.meres.magassag.value);
+				s = parseFloat(document.meres.tomeg.value);
+				E = s/((m/100)*(m/100));
+				document.meres.bmi.value = E;
+				if (E<18.5)
+				{
+					document.getElementById("valasz").innerHTML="SOVÁNY";
+				}
+				else if (E<25)
+				{
+					document.getElementById("valasz").innerHTML="NORMÁL TESTSÚLYÚ";
+				}
+				else
+				{
+					document.getElementById("valasz").innerHTML="TÚLSÚLYOS";
+				}
+			}
+		</script>
+	</body>
+</html>
