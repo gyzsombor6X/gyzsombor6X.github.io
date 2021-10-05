@@ -1,0 +1,62 @@
+#content
+{
+	width: 888px;
+	margin: auto;
+	background-color: yellow;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#margin
+{
+	margin: 15px;
+}
+
+#imageright
+{
+	margin-left: 20px;
+	margin-bottom: 80px;
+	text-align: right;
+}
+#imageleft
+{
+	margin-right: 40px;
+	margin-bottom: 80px;
+	text-align: left;
+}
+.kepszoveg
+{
+	text-align: center;
+}
+
+#RP_felkover
+{
+	font-weight: bold;
+}
+
+#sorkizart
+{
+	text-align: justify
+}
+
+img
+{
+	width: 300px;
+}
+
+h1
+{
+	color: forestgreen;
+}
+
+h2
+{
+	color: forestgreen;
+}
+
+body
+{
+	background-color: green;
+}
