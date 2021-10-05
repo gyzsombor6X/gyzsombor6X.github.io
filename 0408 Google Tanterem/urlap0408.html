@@ -1,0 +1,42 @@
+<!<>
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="utf-8" />
+		<title>Űrlap teszt - 2020.04.08.</title>
+		<link rel="stylesheet" type="text/css" href="papirbrikett.css" />
+	</head>
+	<body>
+		<h1>KÉRDŐÍV</h1>
+		<p>Kérlek töltsd ki ezt a rövid kérdőívet, maximum 3 percet igényel, mégis sokat segíthetsz vele nekem! Előre is köszönöm, hogy időt szánsz rám!</p>
+		<form>
+			Add meg a teljes neved!<br/>
+			<input type="text" name="nev" id="nev" size="25" maxlength="25" required>
+		</form>
+		<form>
+			<p>Nemed?<br/>
+			<input type="radio" name="nemed" id="valasz1"/>Nő
+			<br/>
+			<input type="radio" name="nemed" id="valasz2"/>Férfi
+			</p>
+		</form>
+		<form>
+			<p>Legmagasabb iskolai végzettséged?<br/>
+			<select id="vegzettseg">
+			<option>Általános iskola</option>
+			<option>Középfokú szakmai</option>
+			<option selected>Érettségi</option>
+			<option>Felsőfokú</option>
+			<option>Doktori</option>
+			</select>
+			</p>
+		</form>
+		<form>
+			<label for="velemeny">Egyéb közlendő</label>
+			<br/>
+			<textarea rows="5" cols="100" name="velemeny" id="velemeny">
+				Jó, ha tudod rólam, hogy ...
+			</textarea>
+		</form>
+	</body>
+</html>
