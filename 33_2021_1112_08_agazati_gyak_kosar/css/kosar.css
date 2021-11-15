@@ -1,0 +1,89 @@
+header
+{    
+    background-position: center center;
+    
+    background-image: url("../kepek/hatter.jpg");
+
+    height: 150px;
+}
+
+h1
+{
+	font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2
+{
+    background-color:  #8460bd2a;
+ 	padding-left: 100px;
+    color: #6f6e72;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Geneva;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+
+
+h3
+{    
+    color:  #36275f;    
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+li
+{
+   margin-left: 40px;
+   list-style-type: square
+}
+
+table
+{
+	margin-bottom: 100px;
+}
+
+td,th
+{
+    text-align: center;
+}
+
+
+.navbar
+{
+	background-color: #2341c586;
+}
+
+#tovabbi
+{
+    background-color: RGB(55,65,50,0.6);
+    color: white;
+}
+
+#tovabbi:hover
+{
+    background-color: black;
+}
+
+p
+{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    h2
+    {
+        font-size: 20px;
+    }
+}

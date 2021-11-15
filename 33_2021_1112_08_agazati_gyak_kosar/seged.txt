@@ -1,0 +1,22 @@
+Hivatkozás:
+További képek...
+https://www.google.com/search?q=kos%C3%A1rlabda&tbm=isch
+
+Wikipédia:
+https://hu.wikipedia.org/wiki/Kos%C3%A1rlabda
+
+
+Felsorolás:
+Legmagasabb irányító testület: FIBA
+Csapat létszáma: 5 fő
+Első játék: 1891. Springfield, Massachusetts, (USA)
+Olimpiai: 1936 óta
+Érintés: Van
+Pozíciók: center, Irányító, Kiscsatár, Dobóhátvéd, Erőcsatár
+
+
+Reszponzivitáshoz:
+@media only screen and (max-width: 600px) {
+}                    
+                
+                  
