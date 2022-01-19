@@ -1,0 +1,6 @@
+
+1. Olvasd végig a fájlt, írasd ki a sorait!
+2. Spliteld a sorokat!
+3. Számold meg hány nő volt, írasd ki!
+4. Mi volt a legkevesebb százalék, amit teljesítettek és ki volt az!
+5. Mi volt a teljesített távszázalék átlaga!
