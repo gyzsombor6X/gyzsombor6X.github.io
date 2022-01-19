@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alapok</title>
+</head>
+<body>
+    Add meg az első számot:
+    <input type="text" id="szam1"><br>
+    Add meg a második számot:
+    <input type="text" id="szam2"><br>
+    <button onclick="osszeadas()">Összeg számítása</button>
+    <span id="osszeg"></span>
+    <script>
+        function osszeadas()
+        {
+            var szam1=document.getElementById("szam1").value;
+            var szam2=document.getElementById("szam2").value;
+            var osszeg=parseInt(szam1)+parseInt(szam2);
+            document.getElementById("osszeg").innerHTML="Összegük: "+osszeg;
+        }
+    </script>
+</body>
+</html>
