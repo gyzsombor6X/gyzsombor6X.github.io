@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dínók</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+        </style>
+        <script>
+            console.log("Arasaka");
+        </script>
+</head>
+<body style="background-color: black; color: white;">
+    <h1 style="color: chartreuse;">Dinoszauruszok</h1>
+    
+    <select name="" id="dinovalto" onchange="valtoztat()">
+        <option value="0" selected>Velociraptor</option>
+        <option value="1">Tyrannosaurus</option>
+        <option value="2">Brachiosaurus</option>
+        <option value="3">Ankylosaurus</option>
+        <option value="4">Pterodactylus</option>
+    </select>
+    <h2 id="dinonev">Velociraptor</h2>
+    <p id="dinoszoveg" style="font-size: 20px;"></p>
+    <img src="kepek/0.jpg" alt="Arasaka" title="Arasaka" id="dinokep">
+    <script>
+        var dinotomb=
+        [
+            "Velociraptor",
+            "Tyrannosaurus",
+            "Brachiosaurus",
+            "Ankylosaurus",
+            "Pterodactylus"
+        ]
+        
+        var leirastomb=[]
+        leirastomb.push("A Velociraptor (nevének jelentése: 'gyors rabló', a latin velox 'gyors' és raptor 'rabló', 'fosztogató' szavak összetételéből[1]) a theropoda alrendbe tartozó Dromaeosauridae család legismertebb neme, amely körülbelül 75–71 millió évvel ezelőtt élt, a késő kréta kor végén.[2] Jelenleg két faja ismert, de korábban több fajt is ebbe a nembe soroltak be. Típusfaja a V. mongoliensis, melynek fosszíliáit a közép-ázsiai Mongólia területén találták meg. A második fajt, a V. osmolskae-t 2008-ban nevezték el egy belső-mongóliai koponya alapján.<br>A többi dromaeosauridánál, például a Deinonychusnál és az Achillobatornál kisebb, nagyjából pulyka méretű volt, de számos, azokéhoz hasonló anatómiai tulajdonsággal rendelkezett. Két lábon járó, tollas húsevő volt, hosszú, merev farokkal, hátsó lábain megnagyobbodott, sarló alakú karommal, melyet a zsákmány megragadására, illetve a fákon való kapaszkodásra használt. A Velociraptor hosszú, alacsony koponyája, és felfelé álló pofája alapján könnyen megkülönböztethető a többi dromaeosauridától.<br>A Jurassic Parkban szereplő Velociraptorok valójában Deinonychusok voltak, de a könyv írásakor egy genusba sorolták őket, és később a filmben is így szerepeltek. Az őslénykutatók a fellelt több mint egy tucat fosszilis csontváznak köszönhetően ezt a dromaeosaurida nemet ismerik a legjobban. A leletek között egy különlegesség is található, amely egy Velociraptorral harcoló Protoceratops maradványait is tartalmazza.");
+        leirastomb.push("A Tyrannosaurus (jelentése ’zsarnokgyík’) a theropoda dinoszauruszok egyik neme. A Tyrannosaurus rex faj, melyet gyakran T. rex-ként rövidítenek, az egyik legismertebb dinoszaurusz a populáris kultúrában. Maradványaira a mai Észak-Amerika nyugati részén bukkantak rá, más tyrannosauridákénál nagyobb elterjedési területen, különböző geológiai formációkban, melyek kora a kréta időszak utolsó három millió évére, a körülbelül 68–65,5 millió évvel ezelőtti maastrichti korszakra tehető; tehát a kréta–tercier kihalási esemény előtt élt utolsó röpképtelen dinoszauruszok kortársa volt.<br>Más tyrannosauridákhoz hasonlóan a Tyrannosaurus is két lábon járó húsevő volt, masszív koponyával, melyet hosszú, nehéz farka tartott egyensúlyban. Hátsó lábai aránylag nagyok és izmosak, a mellsők kicsik, de méretükhöz képest szokatlanul erősek voltak, a két ujj mellett lehetséges, hogy egy elcsökevényesedett harmadikkal is rendelkeztek. Bár más theropodák megközelítik vagy esetleg túl is szárnyalják a Tyrannosaurus méreteit, a tyrannosauridák között ez a legnagyobb ismert nem, és emellett az egyik legnagyobb valaha élt szárazföldi húsevő. Hossza 12,3 méter,[1] a csípőmagassága 3,66 méter,[2] a tömegét pedig 8,4–14 tonnára becsülik.[1][3][4] Mivel környezetében messze a legnagyobb húsevők közé tartozott, valószínűleg csúcsragadozóként hadrosauridákra és ceratopsiákra vadászott, bár egyes szakértők azt feltételezik, hogy elsősorban dögevő volt. A kérdés, hogy a Tyrannosaurus csúcsragadozó vagy dögevő volt-e, az őslénytan történetének egyik leghosszabb vitáját eredményezte.<br>Több mint 50 példányát azonosították, némelyiket majdnem teljes csontváz alapján. Legalább egy példány esetében lágy szövetek és fehérjemaradványok felfedezéséről is beszámoltak. A fosszíliák nagy száma jelentős mennyiségű biológiai kutatómunkát tett lehetővé, melybe élettörténeti és biomechanikai vizsgálatok is beletartoztak. A Tyrannosaurus fiziológiája, étkezési szokásai és feltételezett mozgási sebessége viták tárgyát képezi. Emellett rendszertana is vitatott, egyes tudósok az ázsiai Tarbosaurus bataart második Tyrannosaurus fajnak tekintik, míg mások elkülönítve, a Tarbosaurus nembe sorolják be. Több észak-amerikai tyrannosaurida fajt is a Tyrannosaurus szinonimájának tekintenek.");
+        leirastomb.push("A Brachiosaurus (jelentése 'kargyík', az ógörög βραχιων / brakhión 'kar' és σαυρος / szaurosz vagy σαυρα / szaura 'gyík' szavak összetételéből) a sauropoda dinoszauruszok egyik neme, amely a késő jura korban és feltehetően a kora kréta korban élt. Nevét a hátsóknál hosszabb mellső lábai után kapta. A Földön valaha járt legnagyobb állatok egyike volt, amely egyben az egyik leghíresebb dinoszaurusszá is vált, főként a Giraffatitan brancai által, melyet eredetileg a Brachiosaurus egyik fajaként neveztek el (B. brancai néven).");
+        leirastomb.push("Az Ankylosaurus (jelentése 'összeforrt gyík') az ankylosaurida dinoszauruszok egyik neme, melynek fosszíliái az Észak-Amerika nyugati részén levő kréta időszaki geológiai formációkból kerültek elő. Egy faja ismert, az A. magniventris.<br>Bár a teljes csontvázát nem találták meg, és több más dinoszaurusz sokkal nagyobb leletanyag alapján ismert, mégis gyakran az Ankylosaurust tekintik a páncélozott dinoszauruszok archetípusának. Jól ismert tulajdonságai, például a nehéz páncélzatú test és a súlyos farokbuzogány a többi ankylosauridánál is megtalálhatók, de az Ankylosaurus a család legnagyobb tagja.");
+        leirastomb.push("A Pterodactylus a Pterosauria rend egy neme volt, 1,04 méter szárnyfesztávolságú repülő őshüllő a késő jura korban.[1] Ragadozó volt; főleg halakkal és más apró állatokkal táplálkozott. Testének az egész külalakja emlékeztet a madarakéra, a csigolyák és végtagcsontok léggel teltek, a koponya pedig hosszú, hegyes csőrben végződik, és derékszöget zár be a nyakkal, miként a madaraké. Eltérés, hogy csőrében hegyes fogak ülnek, ami ismét a gyíkokra vall. Bőrét nem fedte toll, miként a madarakét, hanem csupasz volt. A mellső végtagjának erősen megnyúlt kisujja és a rövid hátsó végtag között kifeszített bőr segítségével repült, erre utal neve is. A Pterodactylus szárnya első tekintetre a denevérekére hasonlít, de lényegileg sokban eltér attól, mivel a denevér szárny az egyenlően megnyúlt ujjak között feszül. A kis bordákkal körülvett mellkas és a négyujjú hátsó lábak szerkezete egyaránt a hüllőkére emlékeztet. Farka rövid. Mérete erősen, a pacsirta és a sas között változó (l. a Jura-szisztéma mellékletén). Igen szép megtartású példányai ismeretesek a felső jura korú litográfpalákból Bajorországból és Württembergből.");
+        
+        valtoztat();
+
+        function valtoztat()
+        {
+            var dinovarians=document.getElementById("dinovalto").value;
+            document.getElementById("dinonev").innerHTML=dinotomb[dinovarians];
+            document.getElementById("dinokep").src="kepek/"+dinovarians+".jpg";
+            document.getElementById("dinoszoveg").innerHTML=leirastomb[dinovarians];
+        }
+    </script><img src="kepek/teszt.jpg" alt="O1G" title="O1G" style="width: 120px; float: top; position: absolute;">
+</body>
+</html>
