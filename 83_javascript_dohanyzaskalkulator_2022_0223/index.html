@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dohányzás ára kalukulátor - Arasaka</title>
+    <script>
+        console.log("Arasaka");
+        //alert("Arasaka");
+    </script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+    </style>
+    <script src="W98.json"></script>
+    <script src="dohanyzas.js"></script>
+    <link rel="stylesheet" href="dohanyzas.css">
+</head>
+<body style="background-color: black; color: white; font-family: Rajdhani; margin: 15px;">
+    <h1>Dohányzás ára kalkulátor</h1>
+    <img src="cigi-dohanyzas.jpg" alt="Arasaka" title="Arasaka" style="width: 500px;"><br>
+    <label for="cigiszam">Naponta elszívott cigaretták száma: </label>
+    <input type="range" min="1" max="100" value="1" step="1" class="csuszka" id="cigiszam" oninput="szamitas(this.value)">
+    <div id="darabok"><img src="cigi.jpg" alt="Arasaka" title="Arasaka"><br>1 darab</div>
+    <br>
+
+    <label for="dobozar">Doboz ára: </label>
+    <input type="number" value="1200" id="dobozar" oninput="szamitas(cigiszam.value)">
+    <br>
+    
+    <label for="dobozdb">Dobozban lévő cigaretták száma: </label>
+    <input type="number" value="20" id="dobozdb" oninput="szamitas(cigiszam.value)">
+    <br>
+
+    <label for="havikoltseg">Költség havonta: </label>
+    <input type="number" id="havikoltseg" value="1800" disabled>
+    <br>
+
+    <label for="evikoltseg">Költség évente: </label>
+    <input type="number" id="evikoltseg" value="21600" disabled>
+    <br>
+    <script>W98()</script>
+</body>
+</html>

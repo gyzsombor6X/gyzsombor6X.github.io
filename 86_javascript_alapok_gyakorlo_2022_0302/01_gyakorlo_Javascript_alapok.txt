@@ -1,0 +1,16 @@
+
+1.
+Kérj be két számot szóközzel elválasztva, írasd ki: „Mindkettő pozitív!” 
+vagy „Mindkettő negatív!” vagy „Egyik pozitív, másik negatív!”
+
+2. 
+Tárold könyvek adatait json tömbben: cím, író,tejedelem!
+Írd ki az adatokat majd a leghosszabb könyv oldalszámát!
+
+3. 
+Készíts függvényt, amely bemenete egy szöveg, és két karakter
+pl. "Bárcsak tavasz lenne", "a","*" 
+A függvény adja vissza a szöveget, melyben az összes karakter fel van cserélve a megadottra!
+pl. "Bárcs*k t*v*sz lenne"
+
+ 

@@ -1,0 +1,15 @@
+Javascript-ben írd, konzolra add a kimenetet!
+Egy fájlba tedd a 3 megoldást!
+
+1.	
+Kérj be egy számot, írasd ki, hogy „5-el osztható” vagy „5-el nem osztható”!
+
+2. 
+Tárold le 100 darab fej/írás dobás eredményét (0-fej, 1-írás). 
+Tömbbe tárold, írasd ki!
+Hány fej van, számold meg, írasd ki!
+
+3.
+Készíts függvényt , melynek bemenete egy szó, 
+és visszaadja a szót, de úgy, hogy betűi között szóköz van! 
+Írasd ki egy általad választott tetszőleges szót így pl. a l m a ! 

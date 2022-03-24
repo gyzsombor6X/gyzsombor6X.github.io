@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hőmérséklet vizsgáló oldal</title>
+    <script>
+        console.log("Arasaka");
+        //alert("Arasaka");
+    </script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+    </style>
+</head>
+<body style="background-color: black; color: white; font-family: Rajdhani; font-size: 30px;">
+    <h1>Hőmérséklet vizsgáló oldal</h1>
+    <form id="homersekletek">
+        <p id="megadott">Megadott hőmérsékletek: </p>
+        <input type="number" id="bekeres" value="">
+        <input type="button" id="rogzites_gomb" class="gomb" value="Adat rögzítése" onclick="rogzites()">
+        <input type="button" id="restart_gomb" class="gomb" value="Új adatokat adok meg" onclick="restart()"><br>
+        <p id="eredmenyek">Eredmények:</p>
+    </form>
+</body>
+</html>

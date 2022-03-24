@@ -1,0 +1,20 @@
+
+1. Készíts függvényt, melynek 
+bemenete akárhány szám(a beépített arguments tömböt használd),
+és a függvény kimenete egy szám, amely megadja hány pozitív van a számok között.
+Pl. 
+Bemenet: 1,-1,2,0,-3,5
+Kimenet: 3
+
+2. Készíts nyíl függvényt, használd a => operátort,
+amely bemenete 2 szám, a és b,
+kimenete a nagyobb szám(ha egyenlőek, akkor is a szám)
+Pl.
+Bemenet:2,5
+Kimenet:5
+Pl. 
+Bemenet:4,4
+Kimenet:4
+Pl. 
+Bemenet:5,2
+Kimenet:5

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>console.log("Arasaka")</script>
+</head>
+<body style="color: white; background-color: black;">
+    <h1>Konzolos Javascript #2</h1>
+    <script>
+        var tomb=
+        [
+            {'termeknev':"Ceruza 12 színű",'termekara':860},
+            {'termeknev':"Papír 12 színű",'termekara':960},
+            {'termeknev':"Toll 12 színű",'termekara':560},
+            {'termeknev':"Írólap 12 színű",'termekara':760},
+            {'termeknev':"Kijelölő 12 színű",'termekara':460}
+        ];
+        console.log(tomb);
+        var szo = prompt("Adj meg egy szót!");
+        var db = 0;
+        for (elem of tomb)
+        {
+            if (elem.termeknev.includes(szo)) 
+            {
+                db++;
+            }
+        }
+        console.log("Ennyi: " + db);
+    </script>
+</body>
+</html>
