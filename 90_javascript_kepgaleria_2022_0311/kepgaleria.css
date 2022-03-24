@@ -1,0 +1,33 @@
+#kep
+{
+    //width: 500px;
+    height: 400px;
+}
+
+h1, p
+{
+    text-align: center;
+}
+
+input
+{
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px red;
+    font-size: 20px;
+    margin: 10px;
+}
+
+input:hover
+{
+    font-size: 24px;
+    background-color: red;
+    box-shadow: 4px 4px 4px black;
+}
+
+.kiskepek
+{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
