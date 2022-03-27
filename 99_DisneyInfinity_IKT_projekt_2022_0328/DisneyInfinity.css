@@ -1,0 +1,198 @@
+body
+{
+	background-image: url('DisneyInfinity_Background.jpg');
+	.background-image: url('teamvlogo.png');
+	.background-position: right top;
+	.background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Segoe UI Semilight';
+}
+
+.X
+{
+	width: 50px;
+}
+
+#cimsor
+{
+	text-align: center;
+}
+
+#cim
+{
+	margin: auto;
+	text-align: center;
+}
+
+#cimtd_DisneyInfinity
+{
+	width: 120px;
+	text-align: center;
+}
+
+#jelenlegi_oldal
+{
+	font-weight: bold;
+	color: red;
+}
+
+#cimsortd_DisneyInfinity
+{
+	height: 200px;
+}
+
+.nem_megjelent_verzio
+{
+	color: red;
+}
+
+.koncepcio_verzio
+{
+	color: #C905FF;
+}
+
+img
+{
+	width: 350px;
+}
+
+.doboz
+{
+	width: 1000px;
+	.background-image: url('hatter.jpg');
+	margin: auto;
+	height: 750px;
+	padding: 15px;
+}
+
+.csak_konzolra_megjelent_playset
+{
+	color: orange;
+}
+
+.nem_megjelent_playset
+{
+	color: red;
+}
+
+img.InfinityLogo
+{
+	*
+}
+
+.crystal_karakter
+{
+	color: aqua;
+}
+
+.nem_megjelent_karakter
+{
+	color: red;
+}
+
+.csak_konzolra_megjelent_karakter
+{
+	color: orange;
+}
+
+.konzolra_nem_megjelent_karakter
+{
+	color: orange;
+}
+
+.ritka_korong
+{
+	color: blue;
+}
+
+.digitalis_korong
+{
+	color: orange;
+}
+
+.D23_2015_korong
+{
+	color: #C905FF;
+}
+
+.ritka_kocka
+{
+	color: blue;
+}
+
+.digitalis_kocka
+{
+	color: orange;
+}
+
+.DisneyInfinity_kep
+{
+	width: 70%;
+}
+
+.DisneyInfinity_kep_szoveg
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+img.D1
+{
+	z-index: 0;
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	transform: rotate(8deg);
+	border: 2px solid green;
+}
+
+img.D2
+{
+	z-index: 1;
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	transform: rotate(-15deg);
+	border: 2px solid yellow;
+}
+
+img.D3
+{
+	z-index: 2;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	transform: rotate(20deg);
+	border: 2px solid blue;
+}
+
+img.D4
+{
+	z-index: 3;
+	position: absolute;
+	top: 65%;
+	left: 55%;
+	transform: rotate(8deg);
+	border: 2px solid red;
+}
+
+img.D5
+{
+	z-index: 4;
+	position: absolute;
+	top: 62%;
+	left: 40%;
+	transform: rotate(8deg);
+	border: 2px solid orange;
+}
+
+img.D6
+{
+	z-index: 5;
+	position: absolute;
+	top: 25%;
+	left: 55%;
+	transform: rotate(8deg);
+	border: 2px solid purple;
+}
