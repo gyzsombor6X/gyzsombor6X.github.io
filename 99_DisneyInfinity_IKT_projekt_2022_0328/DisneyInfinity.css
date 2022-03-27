@@ -61,7 +61,7 @@ img
 	width: 1000px;
 	.background-image: url('hatter.jpg');
 	margin: auto;
-	height: 750px;
+	.height: 750px;
 	padding: 15px;
 }
 
