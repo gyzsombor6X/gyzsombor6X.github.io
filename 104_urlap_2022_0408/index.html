@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript űrlapok 2022.04.08. - Arasaka</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--script src="main.js"></script-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+    </style>
+    <!--script src="receptek.js"></script-->
+    <script src="W98.json"></script>
+    <style>
+        .receptnev
+        {
+            font-family: Rajdhani;
+            font-size: 20px;
+            background-color: black;
+            color: cyan;
+        }
+
+        .kepek
+        {
+            height: 150px;
+            border: 2px solid red;
+        }
+
+        .elkeszitesiido_sor
+        {
+            font-weight: bold;
+            color: blue;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white; font-family: Rajdhani; padding: 15px;">
+    <h1>Javascript űrlapok 2022.04.08.</h1>
+    <div style="width:200px">
+    <label for="" class="form-label" onmouseover="eger_fent(this)" onmouseleave="eger_nincsfent(this)">Név: </label>
+    <input type="text" id="nev" class="form-control" onfocus="kattintas(this)" onblur="lelepes(this)">
+    <label for="" class="form-label" onmouseover="eger_fent(this)" onmouseleave="eger_nincsfent(this)">Város: </label>
+    <input type="text" id="varos" class="form-control" onfocus="kattintas(this)" onblur="lelepes(this)">
+    <label for="" class="form-label" onmouseover="eger_fent(this)" onmouseleave="eger_nincsfent(this)">Állampolgárság: </label>
+    <!--input type="text" id="varos" class="form-control" onfocus="kattintas(this)" onblur="lelepes(this)"-->
+    <select name="" id="allamp" class="form-select">
+        <option value="magyar">magyar</option>
+        <option value="francia">francia</option>
+        <option value="olasz">olasz</option>
+        <option value="nemet">német</option>
+        <option value="angol">angol</option>
+        <option value="spanyol">spanyol</option>
+    </select>
+    <input type="radio" checked name="neme" onchange="radiovaltoztat('férfi')" value="ferfi" id="" class="form-check-input">Férfi<br>
+    <input type="radio" name="neme" onchange="radiovaltoztat('nő')" value="no" id="" class="form-check-input">Nő<br>
+    <input type="radio" name="neme" onchange="radiovaltoztat('egyéb')" value="egyeb" id="" class="form-check-input">Egyéb<br>
+    <br><input type="button" value="Kattintás" class="btn btn-danger" id="gomb" onclick="">
+    </div>
+    <div id="visszairas" style="font-size: 30px;"></div>
+    <script>
+        var radioertek="férfi";
+        function radiovaltoztat(parameter)
+        {
+            //alert(parameter);
+            radioertek=parameter;
+        }
+
+        var select=document.querySelector("#allamp");
+        select.addEventListener("change",valtoztatas);
+
+        function valtoztatas(e)
+        {
+            //alert(e.target.value);
+        }
+        
+        document.getElementById("gomb").addEventListener("click",adatokkiirasa);
+
+        function adatokkiirasa()
+        {
+            var sz="";
+            sz+='A neved: '+document.querySelector("#nev").value;
+            sz+=', a városod: '+document.querySelector("#varos").value;
+            sz+=', '+document.querySelector("#allamp").value+' állampolgárságú<br>Nem: '+radioertek;
+            document.querySelector("#visszairas").innerHTML=sz;
+        }
+
+        function kattintas(elem)
+        {
+            elem.style.background="yellow";
+            elem.style.border="3px solid red";
+        }
+
+        function lelepes(elem)
+        {
+            elem.style.background="white";
+            elem.style.border="";
+        }
+
+        function eger_fent(elem)
+        {
+            elem.style.fontWeight="bold";
+        }
+
+        function eger_nincsfent(elem)
+        {
+            elem.style.fontWeight="";
+        }
+    </script>
+    <script>W98()</script>
+</body>
+</html>

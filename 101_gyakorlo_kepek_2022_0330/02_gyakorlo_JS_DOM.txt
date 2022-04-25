@@ -1,0 +1,18 @@
+Képek, wallpapers:
+https://gist.githubusercontent.com/nicholaschum/774e60d8c43079be1da3/raw/6acfe0c3eb076274fb12d09b08c128194f61610e/wallpapers.json 
+
+1. töltsd le a jsont, nevezd át js-nek, írd elé var adatok= 
+ (így az 'adatok' egy tömb)
+2. Konzolra!
+3. Listázd ki lenyílóban a neveket! 
+(Ha a json-t változtatnánk, akkor is működjön,
+használd a createelement, appendchild parancsokat!)
+4. Listázd ki táblázatban, első oszlopában(ne createelementtel)!
+5. Adj az oszlopnak osztályt, állíts be rá: 
+ betűméretet, dőlt, félkövér, belső margót!
+6. Második oszlopban a kép!
+7. A táblázat bootstrapes legyen, bármelyik táblázat osztály jó
+9. 3. oszlopban egy link legyen, melynek felirata Kép linkje, 
+ha rákattintunk, ugorjon a kép linkjére, új lapon.
+
+
