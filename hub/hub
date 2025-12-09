@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gyzsombor6X - Lapok - Windows 98</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="lapok.html">gyzsombor6X</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="lapok_osszes.html">Összes weboldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lapok_old.html">Régi weboldalak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lapok_2021.html">2021/2022-es tanév</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lapok.html">Hamarosan!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    
+      <h1 style="text-align: center;">gyzsombor6X legutóbbi 6 weboldala</h1>
+      <div class="row" style="padding: 10px;">
+          <div class="col-sm-4" style="padding: 10px;">
+            <a href="https://gyzsombor6x.github.io/68_javascript_csakszam_2022_0112/csak2szam.html" target="_blank">
+              <button type="button" class="btn btn-primary">Csak 2 + egész szám</button>
+            </a>
+            <br>2022.01.12.
+            <br>Csak 2 + egész szám, Javascript
+          </div>
+	  <div class="col-sm-4" style="padding: 10px;">
+            <a href="https://gyzsombor6x.github.io/69_javascript_2022_0114/" target="_blank">
+              <button type="button" class="btn btn-primary">Összeg számítás</button>
+            </a>
+            <br>2022.01.14.
+            <br>Összeg számítás, Javascript
+          </div>
+	  <div class="col-sm-4" style="padding: 10px;">
+            <a href="https://gyzsombor6x.github.io/70_javascript_vicc_2022_0114/" target="_blank">
+              <button type="button" class="btn btn-primary">Viccek</button>
+            </a>
+            <br>2022.01.14.
+            <br>Viccek v1
+          </div>
+	  <div class="col-sm-4" style="padding: 10px;">
+            <a href="https://gyzsombor6x.github.io/71_javascript_teglalap_2022_0114/" target="_blank">
+              <button type="button" class="btn btn-primary">Téglalap</button>
+            </a>
+            <br>2022.01.14.
+            <br>Téglalap kerülete, területe
+          </div>
+	  <div class="col-sm-4" style="padding: 10px;">
+            <a href="https://gyzsombor6x.github.io/72_javascript_vicc_2022_0117/" target="_blank">
+              <button type="button" class="btn btn-primary">Viccek</button>
+            </a>
+            <br>2022.01.17.
+            <br>Viccek képekkel és új vicckéréssel
+          </div>
+	  <div class="col-sm-4" style="padding: 10px;">
+            <a href="https://gyzsombor6x.github.io/73_dinok_2022_0119/" target="_blank">
+              <button type="button" class="btn btn-primary">Dínók</button>
+            </a>
+            <br>2022.01.19.
+            <br>Dínók FÉLKÉSZ
+          </div>
+      </div>
+    <h1>Korábbi oldalakért lásd a fejlécet!</h1>
+</body>
+</html>
+<!button type="button" class="btn"><!/button>
+<!button type="button" class="btn btn-primary"><!/button>
+<!button type="button" class="btn btn-secondary"><!/button>
+<!button type="button" class="btn btn-success"><!/button>
+<!button type="button" class="btn btn-info"><!/button>
+<!button type="button" class="btn btn-warning"><!/button>
+<!button type="button" class="btn btn-danger"><!/button>
+<!button type="button" class="btn btn-dark"><!/button>
+<!button type="button" class="btn btn-light"><!/button>
+<!button type="button" class="btn btn-link"><!/button>
